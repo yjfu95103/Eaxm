@@ -28,6 +28,9 @@ class Car: public Vehicle{
 		void Stop(){
 			cout<<"Car has stoped"<<endl;
 		}
+		void Info(){
+			cout<<"Cars can go on the highway"<<endl;
+		}
 	private:
 		int Maxspeed,Tirecount;
 };
@@ -54,6 +57,7 @@ int main(){
 	Car c(100, 4);
 	c.Run();
 	c.Stop();
+	c.Info();
 	
 	cout<<endl;
 	
